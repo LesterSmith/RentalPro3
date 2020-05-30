@@ -1,0 +1,34 @@
+Microsoft Visual Studio Solution File, Format Version 7.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "HHIImage", "HHIImage.vbproj", "{18AE9580-6BAC-4E88-9F31-5CE478D0111A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "HHIImageSetup", "..\HHIImageSetup\HHIImageSetup.vdproj", "{D994FAE1-91B4-49E4-A153-786D0D40E335}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 1
+		SccProjectUniqueName0 = HHIImage.vbproj
+		SccProjectName0 = \u0022$/NetCmdrReg/NetCommander/HHIImage\u0022,\u0020YPBAAAAA
+		SccLocalPath0 = .
+		SccProvider0 = MSSCCI:Microsoft\u0020Visual\u0020SourceSafe
+		CanCheckoutShared = false
+	EndGlobalSection
+	GlobalSection(SolutionConfiguration) = preSolution
+		ConfigName.0 = Debug
+		ConfigName.1 = Release
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{18AE9580-6BAC-4E88-9F31-5CE478D0111A}.Debug.ActiveCfg = Debug|.NET
+		{18AE9580-6BAC-4E88-9F31-5CE478D0111A}.Debug.Build.0 = Debug|.NET
+		{18AE9580-6BAC-4E88-9F31-5CE478D0111A}.Release.ActiveCfg = Release|.NET
+		{18AE9580-6BAC-4E88-9F31-5CE478D0111A}.Release.Build.0 = Release|.NET
+		{D994FAE1-91B4-49E4-A153-786D0D40E335}.Debug.ActiveCfg = Debug
+		{D994FAE1-91B4-49E4-A153-786D0D40E335}.Release.ActiveCfg = Release
+		{D994FAE1-91B4-49E4-A153-786D0D40E335}.Release.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

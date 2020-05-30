@@ -1,0 +1,510 @@
+﻿<html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="_UpgradeReport_Files\UpgradeReport.css">
+		<title>Rental.vbp Upgrade Report</title>
+		
+		<script language="javascript">
+			function outliner () {
+				oMe = window.event.srcElement
+				//get child element
+				var child = document.all[event.srcElement.getAttribute("child",false)];
+				//if child element exists, expand or collapse it.
+				if (null != child)
+					child.className = child.className == "collapsed" ? "expanded" : "collapsed";
+			}
+		
+			function changepic() {
+				uMe = window.event.srcElement;
+				var check = uMe.src.toLowerCase();
+				if (check.lastIndexOf("upgradereport_plus.gif") != -1)
+				{
+					uMe.src = "_UpgradeReport_Files/UpgradeReport_Minus.gif"
+				}
+				else
+				{
+					uMe.src = "_UpgradeReport_Files/UpgradeReport_Plus.gif"
+				}
+			}
+		</script>
+		
+	</head>
+	<body topmargin="0" leftmargin="0" rightmargin="0" onclick="outliner();">
+		<h1>Upgrade Report for Rental.vbp</h1>
+		
+		<p><span class="note">
+		<b>Time of Upgrade:  </b>04/05/2003 4:03 PM<br>
+		</span></p>
+		
+		<h2>List of Project Files</h2>
+		<table cellpadding="2" cellspacing="0" width="98%" border="1"bordercolor="white" class="infotable"></TR>
+			<tr>
+				<td nowrap class="header">New Filename</td>
+				<td nowrap class="header">Original Filename</td>
+				<td nowrap class="header">File Type</td>
+				<td nowrap class="header">Status</td>
+				<td nowrap class="header">Errors</td>
+				<td nowrap class="header">Warnings</td>
+				<td nowrap class="header">Total Issues</td>
+			</tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue0">&nbsp;(Global Issues)</td>
+			<td class="content"></td>
+			<td class="content"></td>
+			<td class="content">
+		</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue0" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Global update issues:</td></tr><tr><td class="issuenone">None</td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue1">&nbsp;AddToList.vb</td>
+			<td class="content">AddToList.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">3</td>
+			<td class="content">12</td>
+			<td class="content">15</td>
+		</tr>
+			<tr class="collapsed" id="issue1" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for AddToList.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtweekend_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtweekend</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">array</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1041"'>Array has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">ComboBox</td><td class="issuecontent">txtPeriods</td><td class="issuecontent">ItemData</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2056"'>ComboBox property txtPeriods.ItemData was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">chkDeposit_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event chkDeposit.CheckStateChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Fmt_D_F</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Replace</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object rsTxt.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Activate</td><td class="issuecontent">Form</td><td class="issuecontent">frmAddToList</td><td class="issuecontent">Activate</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmAddToList.Activate has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">optDaily_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event optDaily.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">optHalfDay_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event optHalfDay.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">optHour_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event optHour.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">optMonthly_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event optMonthly.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">optSaleItem_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event optSaleItem.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">optWeekEnd_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event optWeekEnd.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">optWeekly_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event optWeekly.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtPeriods_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtPeriods.SelectedIndexChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">UnFmt_T_B</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue2">&nbsp;CCustomer.vb</td>
+			<td class="content">CCustomer.cls</td>
+			<td class="content">Class Module</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">0</td>
+			<td class="content">1</td>
+			<td class="content">1</td>
+		</tr>
+			<tr class="collapsed" id="issue2" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for CCustomer.cls:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">GetNewCustID</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object GetNewCustID.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue3">&nbsp;CItems.vb</td>
+			<td class="content">CItems.cls</td>
+			<td class="content">Class Module</td>
+			<td class="content">
+		Upgraded</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue3" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for CItems.cls:</td></tr><tr><td class="issuenone">None</td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue4">&nbsp;CProgram.vb</td>
+			<td class="content">CProgram.cls</td>
+			<td class="content">Class Module</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">0</td>
+			<td class="content">4</td>
+			<td class="content">4</td>
+		</tr>
+			<tr class="collapsed" id="issue4" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for CProgram.cls:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Currentconnection</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object CurrentConnection.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Currentconnection</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object mvarCurrentConnection.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Currentconnection</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object vData.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Currentconnection</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">IsObject</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1041"'>IsObject has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue5">&nbsp;CRentalContract.vb</td>
+			<td class="content">CRentalContract.cls</td>
+			<td class="content">Class Module</td>
+			<td class="content">
+		Upgraded</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue5" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for CRentalContract.cls:</td></tr><tr><td class="issuenone">None</td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue6">&nbsp;CTransaction.vb</td>
+			<td class="content">CTransaction.cls</td>
+			<td class="content">Class Module</td>
+			<td class="content">
+		Upgraded</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue6" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for CTransaction.cls:</td></tr><tr><td class="issuenone">None</td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue7">&nbsp;Customers.vb</td>
+			<td class="content">Customers.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">5</td>
+			<td class="content">17</td>
+			<td class="content">22</td>
+		</tr>
+			<tr class="collapsed" id="issue7" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for Customers.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txt_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txt</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtManualDeposit_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtManualDeposit</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">array</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1041"'>Array has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">ComboBox</td><td class="issuecontent">cboDeliveryDistance</td><td class="issuecontent">ItemData</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2056"'>ComboBox property cboDeliveryDistance.ItemData was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtState</td><td class="issuecontent">MaxLength</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>TextBox property txtState.MaxLength has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cboDeliveryDistance_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2074"'>ComboBox event cboDeliveryDistance.Change was upgraded to cboDeliveryDistance.TextChanged which has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cboDeliveryDistance_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cboDeliveryDistance.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cboDeliveryDistance_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cboDeliveryDistance.SelectedIndexChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">CheckOut</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object oRES.PlaceShoppingCartListOnRent().</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">chkChargeTax_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event chkChargeTax.CheckStateChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">chkDeliveryRequired_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event chkDeliveryRequired.CheckStateChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">chkDepositRequired_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event chkDepositRequired.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">chkManualDepositOverride_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event chkManualDepositOverride.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmdDelete_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object bkmrk.</a></td></tr>
+					<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmdDelete_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object Me.dbgShoppingList.SelBookmarks().</a></td></tr>
+					<tr><td width="10" class="issuecontent">16</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmdDelete_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object colItems().ItemID.</a></td></tr>
+					<tr><td width="10" class="issuecontent">17</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Fmt_D_F</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Replace</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object rsTxt.</a></td></tr>
+					<tr><td width="10" class="issuecontent">18</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Activate</td><td class="issuecontent">Form</td><td class="issuecontent">frmCustomers</td><td class="issuecontent">Activate</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmCustomers.Activate has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">19</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">SSOleDBCombo1_PositionList</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object rsFC.Bookmark.</a></td></tr>
+					<tr><td width="10" class="issuecontent">20</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txt_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">21</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtManualDeposit_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">22</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">UnFmt_T_B</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue8">&nbsp;EquipmentMaint.vb</td>
+			<td class="content">EquipmentMaint.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">3</td>
+			<td class="content">12</td>
+			<td class="content">15</td>
+		</tr>
+			<tr class="collapsed" id="issue8" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for EquipmentMaint.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">LoadPriceIDCombo</td><td class="issuecontent">VBControlExtender</td><td class="issuecontent">dbcPriceid</td><td class="issuecontent">DataSource</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2066"'>VBControlExtender property dbcPriceid.DataSource is not supported at runtime.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">array</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1041"'>Array has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">ComboBox</td><td class="issuecontent">txtAvailable</td><td class="issuecontent">ItemData</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2056"'>ComboBox property txtAvailable.ItemData was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">ConvertTextDateTimeToDouble</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object rsDateTime.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Activate</td><td class="issuecontent">Form</td><td class="issuecontent">frmEquipMaint</td><td class="issuecontent">Activate</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmEquipMaint.Activate has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_QueryUnload</td><td class="issuecontent">Form</td><td class="issuecontent">frmEquipMaint</td><td class="issuecontent">QueryUnload</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmEquipMaint.QueryUnload has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Resize</td><td class="issuecontent">Form</td><td class="issuecontent"></td><td class="issuecontent">Resize</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event frmEquipMaint.Resize may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtAvailable_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2074"'>ComboBox event txtAvailable.Change was upgraded to txtAvailable.TextChanged which has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtAvailable_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtAvailable.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtAvailableDateTime_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtAvailableDateTime.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtDiscontinued_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtDiscontinued.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtEquip_Name_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtEquip_Name.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtEquipDesc_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtEquipDesc.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtModelNumber_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtModelNumber.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtSerialNumber_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtSerialNumber.TextChanged may fire when form is intialized.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue9">&nbsp;frmAbout.vb</td>
+			<td class="content">frmAbout.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">6</td>
+			<td class="content">1</td>
+			<td class="content">7</td>
+		</tr>
+			<tr class="collapsed" id="issue9" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmAbout.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">Form_Load</td><td class="issuecontent">App</td><td class="issuecontent">App</td><td class="issuecontent">Revision</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>App property App.Revision was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">Form</td><td class="issuecontent">frmAbout</td><td class="issuecontent">ClipControls</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>Form property frmAbout.ClipControls was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">PictureBox</td><td class="issuecontent">picIcon</td><td class="issuecontent">ClipControls</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property picIcon.ClipControls was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">PictureBox</td><td class="issuecontent">picIcon</td><td class="issuecontent">ScaleHeight</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property picIcon.ScaleHeight was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">PictureBox</td><td class="issuecontent">picIcon</td><td class="issuecontent">ScaleMode</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property picIcon.ScaleMode was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">PictureBox</td><td class="issuecontent">picIcon</td><td class="issuecontent">ScaleWidth</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property picIcon.ScaleWidth was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">StartSysInfo</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Dir</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1041"'>Dir has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue10">&nbsp;frmCategoryMaintenance.vb</td>
+			<td class="content">frmCategoryMaintenance.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">6</td>
+			<td class="content">2</td>
+			<td class="content">8</td>
+		</tr>
+			<tr class="collapsed" id="issue10" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmCategoryMaintenance.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">Adodc</td><td class="issuecontent">datPrimaryRS</td><td class="issuecontent">Connect</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Adodc property datPrimaryRS.Connect was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">TextBox</td><td class="issuecontent">_txtFields_0</td><td class="issuecontent">DataField</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>TextBox property _txtFields_0.DataField was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">TextBox</td><td class="issuecontent">_txtFields_0</td><td class="issuecontent">DataSource</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>TextBox property _txtFields_0.DataSource was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">TextBox</td><td class="issuecontent">_txtFields_1</td><td class="issuecontent">DataField</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>TextBox property _txtFields_1.DataField was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">TextBox</td><td class="issuecontent">_txtFields_1</td><td class="issuecontent">DataSource</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>TextBox property _txtFields_1.DataSource was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">VBControlExtender</td><td class="issuecontent">datPrimaryRS</td><td class="issuecontent">Password</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>VBControlExtender method datPrimaryRS.Password was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Unload</td><td class="issuecontent">Form</td><td class="issuecontent">frmCategoryMaintenance</td><td class="issuecontent">Unload</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmCategoryMaintenance.Unload has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Unload</td><td class="issuecontent">Screen</td><td class="issuecontent">Screen</td><td class="issuecontent">MousePointer</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Screen property Screen.MousePointer has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue11">&nbsp;frmSplash.vb</td>
+			<td class="content">frmSplash.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue11" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmSplash.frm:</td></tr><tr><td class="issuenone">None</td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue12">&nbsp;frmWhoHasIt.vb</td>
+			<td class="content">frmWhoHasIt.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">0</td>
+			<td class="content">2</td>
+			<td class="content">2</td>
+		</tr>
+			<tr class="collapsed" id="issue12" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmWhoHasIt.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Resize</td><td class="issuecontent">Form</td><td class="issuecontent"></td><td class="issuecontent">Resize</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event frmWhoHasIt.Resize may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Unload</td><td class="issuecontent">Form</td><td class="issuecontent">frmWhoHasIt</td><td class="issuecontent">Unload</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmWhoHasIt.Unload has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue13">&nbsp;Module1.vb</td>
+			<td class="content">Module1.bas</td>
+			<td class="content">Module</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">1</td>
+			<td class="content">13</td>
+			<td class="content">14</td>
+		</tr>
+			<tr class="collapsed" id="issue13" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for Module1.bas:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">ProperName</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1014"'>GoSub statement is not supported.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">(Declarations)</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1047"'>Application will terminate when Sub Main() finishes.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">ConnectToDatabase</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object oProgram.CurrentConnection.Open.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">ErrHandler</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object pError.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">ErrHandler</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Str$</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object pErr.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">GetToken</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object rsDel.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">GetToken</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Trim$</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object srcline.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">MNS</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">CStr</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object rvntValue.</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">MNS</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">IsNull</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1049"'>Use of Null/IsNull() detected.</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">MNZ</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object rvntValue.</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">MNZ</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">IsNull</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1049"'>Use of Null/IsNull() detected.</a></td></tr>
+					<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">PADL</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Trim$</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object s.</a></td></tr>
+					<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">ProperName</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1041"'>Return has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">ProperName</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">LCase$</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object psIn.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue14">&nbsp;Rental.vb</td>
+			<td class="content">Rental.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">2</td>
+			<td class="content">13</td>
+			<td class="content">15</td>
+		</tr>
+			<tr class="collapsed" id="issue14" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for Rental.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">dbgEquipment_MouseDown</td><td class="issuecontent">VBControlExtender</td><td class="issuecontent">dbgEquipment</td><td class="issuecontent">Drag</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>VBControlExtender method dbgEquipment.Drag was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">CommandButton</td><td class="issuecontent">cmdAddToList</td><td class="issuecontent">DragIcon</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>CommandButton property cmdAddToList.DragIcon was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">AddItemsToCollection</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object bkmrk.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">AddItemsToCollection</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object dbgEquipment.SelBookmarks().</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">AddItemsToCollection</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object Me.dbgEquipment.Columns().CellValue().</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cboEquipType_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cboEquipType.SelectedIndexChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmdAddToList_DragDrop</td><td class="issuecontent">CommandButton</td><td class="issuecontent">cmdAddToList</td><td class="issuecontent">DragDrop</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2050"'>CommandButton Event cmdAddToList.DragDrop was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmdCancelOrder_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object colItems().ItemID.</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">dbgEquipment_MouseDown</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object bm.</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">dbgEquipment_MouseDown</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object dbgEquipment.RowBookmark().</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_QueryUnload</td><td class="issuecontent">Form</td><td class="issuecontent">frmRental</td><td class="issuecontent">QueryUnload</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmRental.QueryUnload has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Resize</td><td class="issuecontent">Form</td><td class="issuecontent"></td><td class="issuecontent">Resize</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event frmRental.Resize may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">optShowAll_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event optShowAll.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">optShowAvailable_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event optShowAvailable.CheckedChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">SSOleDBCombo1_PositionList</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object rsFC.Bookmark.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue15">&nbsp;RentalRates.vb</td>
+			<td class="content">RentalRates.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">8</td>
+			<td class="content">23</td>
+			<td class="content">31</td>
+		</tr>
+			<tr class="collapsed" id="issue15" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for RentalRates.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtDaily_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtDaily</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtDeposit_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtDeposit</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtHalfDay_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtHalfDay</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtHour_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtHour</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtMinimum_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtMinimum</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtMonthly_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtMonthly</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtweekend_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtweekend</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">txtWeekly_KeyPress</td><td class="issuecontent">TextBox</td><td class="issuecontent">txtWeekly</td><td class="issuecontent">KeyPress</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1058"'>Assignment not supported: KeyAscii to a non-zero value</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmdAdd_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">IsNull</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1049"'>Use of Null/IsNull() detected.</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Fmt_D_F</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Replace</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object rsTxt.</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Activate</td><td class="issuecontent">Form</td><td class="issuecontent">frmRentalRates</td><td class="issuecontent">Activate</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmRentalRates.Activate has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_QueryUnload</td><td class="issuecontent">Form</td><td class="issuecontent">frmRentalRates</td><td class="issuecontent">QueryUnload</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmRentalRates.QueryUnload has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Resize</td><td class="issuecontent">Form</td><td class="issuecontent"></td><td class="issuecontent">Resize</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event frmRentalRates.Resize may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtDaily_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtDaily.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtDaily_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">16</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtDeposit_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtDeposit.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">17</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtDeposit_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">18</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtEquip_Name_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtEquip_Name.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">19</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtHalfDay_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtHalfDay.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">20</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtHalfDay_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">21</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtHour_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtHour.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">22</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtHour_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">23</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtMinimum_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtMinimum.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">24</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtMinimum_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">25</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtMonthly_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtMonthly.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">26</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtMonthly_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">27</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtweekend_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtweekend.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">28</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtWeekEnd_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">29</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtWeekly_Change</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2075"'>Event txtWeekly.TextChanged may fire when form is intialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">30</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">txtWeekly_GotFocus</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B().</a></td></tr>
+					<tr><td width="10" class="issuecontent">31</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">UnFmt_T_B</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object UnFmt_T_B.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue16">&nbsp;REPORTS.vb</td>
+			<td class="content">REPORTS.BAS</td>
+			<td class="content">Module</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">42</td>
+			<td class="content">3</td>
+			<td class="content">45</td>
+		</tr>
+			<tr class="collapsed" id="issue16" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for REPORTS.BAS:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr">Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">CloseReport</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">EndDoc</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.EndDoc was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawLine</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">DrawWidth</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.DrawWidth was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawLine</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">Line</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>Printer method Printer.Line was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawText</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Printer</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2068"'>Printer object was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">CurrentX</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.CurrentX was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">CurrentY</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.CurrentY was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontBold</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontBold was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontItalic</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontItalic was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontName</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontName was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontSize</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontSize was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">DrawText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">Print</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.Print was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">EjectReportPage</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">NewPage</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.NewPage was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">InitializeReport</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontName</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontName was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">InitializeReport</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontSize</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontSize was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">InitializeReport</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">ScaleHeight</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.ScaleHeight was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">16</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">InitializeReport</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">ScaleWidth</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.ScaleWidth was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">17</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">InitializeReport</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">TextHeight</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.TextHeight was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">18</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">InitializeReport</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">TextWidth</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.TextWidth was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">19</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Printer</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2068"'>Printer object was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">20</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">CurrentX</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.CurrentX was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">21</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">CurrentY</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.CurrentY was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">22</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">DrawWidth</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.DrawWidth was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">23</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontBold</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontBold was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">24</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontName</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontName was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">25</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontSize</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontSize was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">26</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">Line</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2064"'>Printer method Printer.Line was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">27</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">Print</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.Print was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">28</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintReportHeaderFooter</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">TextWidth</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.TextWidth was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">29</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintText</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Printer</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2068"'>Printer object was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">30</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">CurrentX</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.CurrentX was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">31</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">CurrentY</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.CurrentY was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">32</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontBold</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontBold was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">33</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontName</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontName was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">34</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontSize</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontSize was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">35</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">Print</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.Print was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">36</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">PrintText</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">TextWidth</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.TextWidth was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">37</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">TextDimensions</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontBold</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontBold was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">38</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">TextDimensions</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontItalic</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontItalic was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">39</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">TextDimensions</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontName</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontName was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">40</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">TextDimensions</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">FontSize</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer property Printer.FontSize was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">41</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">TextDimensions</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">TextHeight</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.TextHeight was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">42</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">TextDimensions</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">TextWidth</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.TextWidth was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">43</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">DrawingHeight</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object DrawingHeight.</a></td></tr>
+					<tr><td width="10" class="issuecontent">44</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">DrawingWidth</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object DrawingWidth.</a></td></tr>
+					<tr><td width="10" class="issuecontent">45</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">PrintBlock</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Mid$</td><td class="issuecontent"><a href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbup1037"'>Couldn't resolve default property of object sWorkText.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue17">&nbsp;ShowList.vb</td>
+			<td class="content">ShowList.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue17" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for ShowList.frm:</td></tr><tr><td class="issuenone">None</td></tr>
+				</table>
+			</td></tr>
+		<tr valign="top">
+			<td class="foot">17 File(s)</td>
+			<td class="foot">&nbsp;</td>
+			<td class="foot">Forms: 10<br>Modules: 2<br>Class Modules: 5</td>
+			<td class="foot">
+		Upgraded: 17<BR>
+		Not upgraded: 0
+		</td>
+			<td class="foot">76</td>
+			<td class="foot">103</td>
+			<td class="foot">179</td>
+		</tr>
+		</table>
+		<p class="help">
+			<A href='ms-help://MS.VSCC/commoner/redir/redirect.htm?keyword="vbtbsTroubleshootingApplicationsUpgradedFromVisualBasic60"'>Click here for help with troubleshooting upgraded projects</A>
+		</p>
+				<p>
+					<table class = "note">
+						<tr><td nowrap><b>Upgrade Settings</b></tr>
+						<tr><td nowrap><b>GenerateInterfacesForClasses:</b> FALSE</tr>
+						<tr><td nowrap><b>LogFile:</b> Rental.log</tr>
+						<tr><td nowrap><b>MigrateProjectTo:</b> 0</tr>
+						<tr><td nowrap><b>OutputDir:</b> C:\PioneerRental.NET</tr>
+						<tr><td nowrap><b>OutputName:</b> Rental.vbproj</tr>
+						<tr><td nowrap><b>ProjectName:</b> Rental</tr>
+						<tr><td nowrap><b>ProjectPath:</b> C:\PioneerRental\Rental.vbp</tr>
+					</table>
+				</p>
+	</body>
+</html>

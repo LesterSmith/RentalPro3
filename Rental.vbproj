@@ -1,0 +1,614 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.0.9466</ProductVersion>
+    <SchemaVersion>1.0</SchemaVersion>
+    <ProjectGuid>{FF9F8334-0CA8-4002-BB47-F9BDC3AAE840}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>Rental.ico</ApplicationIcon>
+    <AssemblyKeyContainerName />
+    <AssemblyName>Rental</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>
+    </RootNamespace>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Rental.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants>Win32 = True,CustomerApp=RELIABLE</DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Rental.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile />
+    <DefineConstants>Win32 = True,CustomerApp=RELIABLE</DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>0</WarningLevel>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <COMReference Include="AxMSComctlLib">
+      <Guid>{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+    </COMReference>
+    <COMReference Include="DAO">
+      <Guid>{00025E01-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="Microsoft.StdFormat">
+      <Guid>{6B263850-900B-11D0-9484-00A0C91110ED}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <COMReference Include="MSComctlLib">
+      <Guid>{831FDD16-0C5C-11D2-A9FC-0000F8754DA1}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+    </COMReference>
+    <ProjectReference Include="HHIImage\HHIImage.vbproj">
+      <Name>HHIImage</Name>
+      <Project>{18AE9580-6BAC-4E88-9F31-5CE478D0111A}</Project>
+      <Package>{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</Package>
+    </ProjectReference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility">
+      <Name>Microsoft.VisualBasic.Compatibility</Name>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data">
+      <Name>Microsoft.VisualBasic.Compatibility.Data</Name>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CAcctsRecReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCheckIn.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCheckOut.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCheckReservations.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CConfig.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CCustomer.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDataAccess.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CDeliveryReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CEquipAndRates.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CEquipmentList.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGrid.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CGridNew.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CInvoiceSplit.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CItems.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPioneerPrepInvoice.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPioneerPrint.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPioneerPrintObject.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPrintEquipUsage.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPrintInvoices.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPrintReRentReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPrintSaleTaxReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPrintStatements.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPrintString.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CPrintStringNew.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CReceivablesReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CReliablePrint.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRelialblePrintObject.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CReminder.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CRentalContract.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CShare.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CToolsAndSupplies.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTotalCostOwnershipReport.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CTransaction.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CUtilities.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DeliveryNotificationOptions.vb" />
+    <Compile Include="EmailWrapper.vb" />
+    <Compile Include="frmAbout.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddToList.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApplyCash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategoryMaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckinMods.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCheckinNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCkInModifySaleItem.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustInvMaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomerMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeliveryReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmail.Designer.vb">
+      <DependentUpon>frmEmail.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmail.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEmployees.Designer.vb">
+      <DependentUpon>frmEmployees.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEmployees.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipCost.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEquipmentMaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFuelCostsMaintenance.Designer.vb">
+      <DependentUpon>frmFuelCostsMaintenance.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFuelCostsMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLaborItemsMaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMarkDamage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMemo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeterReadingMaint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMeterReadingReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMiscCharges.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMiscCheckInItems.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrintEquipUsage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrinters.Designer.vb">
+      <DependentUpon>frmPrinters.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrinters.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReminder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRental.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRentalRates.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRerent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReRentReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservations.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSaleItemsMaintenance.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSalesTaxReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectCheckInInvoice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSelectInvoicesToPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSetup.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSplash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSupplies.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuppliesReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewCustomer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewCustomerAccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWhoHasIt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modAutoCalc.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modmain.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="PioneerNewPrintObject.vb" />
+    <Compile Include="Printers.vb" />
+    <Compile Include="StringEncryption.vb" />
+    <Compile Include="TBEvents.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="Document.txt" />
+    <None Include="shop.gif" />
+    <None Include="vpasp_shop.gif" />
+    <None Include="ShopIcon.ico" />
+    <None Include="Shop2.ico" />
+    <EmbeddedResource Include="frmAbout.resX">
+      <DependentUpon>frmAbout.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddToList.resX">
+      <DependentUpon>frmAddToList.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApplyCash.resx">
+      <DependentUpon>frmApplyCash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategoryMaint.resx">
+      <DependentUpon>frmCategoryMaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckIn.resx">
+      <DependentUpon>frmCheckIn.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckinMods.resx">
+      <DependentUpon>frmCheckinMods.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCheckinNew.resx">
+      <DependentUpon>frmCheckinNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCkInModifySaleItem.resx">
+      <DependentUpon>frmCkInModifySaleItem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustInvMaint.resx">
+      <DependentUpon>frmCustInvMaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomerMaintenance.resx">
+      <DependentUpon>frmCustomerMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomers.resX">
+      <DependentUpon>frmCustomers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeliveryReport.resx">
+      <DependentUpon>frmDeliveryReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmail.resx">
+      <DependentUpon>frmEmail.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEmployees.resx">
+      <DependentUpon>frmEmployees.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipCost.resx">
+      <DependentUpon>frmEquipCost.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEquipmentMaint.resX">
+      <DependentUpon>frmEquipmentMaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFuelCostsMaintenance.resx">
+      <DependentUpon>frmFuelCostsMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHelp.resx">
+      <DependentUpon>frmHelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLaborItemsMaint.resx">
+      <DependentUpon>frmLaborItemsMaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMarkDamage.resx">
+      <DependentUpon>frmMarkDamage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMemo.resx">
+      <DependentUpon>frmMemo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeterReadingMaint.resx">
+      <DependentUpon>frmMeterReadingMaint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMeterReadingReport.resx">
+      <DependentUpon>frmMeterReadingReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMiscCharges.resx">
+      <DependentUpon>frmMiscCharges.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMiscCheckInItems.resx">
+      <DependentUpon>frmMiscCheckInItems.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrintEquipUsage.resx">
+      <DependentUpon>frmPrintEquipUsage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrinters.resx">
+      <DependentUpon>frmPrinters.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReminder.resx">
+      <DependentUpon>frmReminder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRental.resX">
+      <DependentUpon>frmRental.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRentalRates.resX">
+      <DependentUpon>frmRentalRates.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRerent.resx">
+      <DependentUpon>frmRerent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReRentReport.resx">
+      <DependentUpon>frmReRentReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservations.resx">
+      <DependentUpon>frmReservations.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSaleItemsMaintenance.resx">
+      <DependentUpon>frmSaleItemsMaintenance.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSalesTaxReport.resx">
+      <DependentUpon>frmSalesTaxReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectCheckInInvoice.resx">
+      <DependentUpon>frmSelectCheckInInvoice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSelectInvoicesToPrint.resx">
+      <DependentUpon>frmSelectInvoicesToPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSetup.resx">
+      <DependentUpon>frmSetup.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSplash.resX">
+      <DependentUpon>frmSplash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSupplies.resx">
+      <DependentUpon>frmSupplies.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSuppliesReport.resx">
+      <DependentUpon>frmSuppliesReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewCustomer.resx">
+      <DependentUpon>frmViewCustomer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewCustomerAccount.resx">
+      <DependentUpon>frmViewCustomerAccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWhoHasIt.resX">
+      <DependentUpon>frmWhoHasIt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources1.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rental.ico" />
+    <None Include="My Project\app.manifest" />
+    <None Include="_UpgradeReport.htm">
+      <SubType>Preview</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

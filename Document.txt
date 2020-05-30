@@ -1,0 +1,29 @@
+This is a documentation file for the program.
+
+The data for a customer is made up of Customers, Invoices (Hdr), and invoice_detail
+records in the database.  Each customer has one customer record.  Each customer can
+have many Invoices (hdr).  Each Invoices record has two or more invoice_detail
+records.
+
+Invoice_Detail records have record_types as follows:
+   15 - Line item (rental or sale).  RentOrSale field of the record will be = 
+        "Rent" or "Sale".
+   25 = deposit
+   35 = tax
+   45 = delivery
+   55 = AmtPaid(only if pmt made)
+   65 = refund at check in
+   75 = Balance due after checkin
+   67 = Cash on account      
+   66 = Credit Memo
+   68 = Debit Memo
+   
+   Invoice Detail records will all have the same invoice id (number).  Even Credit
+   memos, debit memos, and cash on accout will reference have the same number.  So
+   when an invoice is printed, all records should be taken into account to compute
+   the outstanding balance of the invoice.
+   
+   The invoice date is carried in the Rented_date field of the invoice_detail 
+   record.
+   
+   
