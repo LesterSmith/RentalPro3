@@ -1,14 +1,17 @@
 Option Strict Off
 Option Explicit On
 Imports VB = Microsoft.VisualBasic
+Imports System.Data.OleDb
 Imports System.IO
 Module modMain
+    Public BuildDate As String = "11/17/2020 at 17:04"
     'Public colItems As New Collection()
     Public fMainForm As frmRental 'frmMain
     'Public oProgram As CProgram
     Public giChildCount As Short
     Public Const SETTINGS As String = "SETTINGS"
     Public ConnectString As String
+    Public connectedToDB As Boolean
     'Public colItems As colItems
     Public AppPath As String
     Public UserName As String
@@ -192,7 +195,7 @@ Module modMain
         UnFormat = Val(Replace(Replace(rsAmt, "$", ""), ",", ""))
     End Function
 
-    Friend Function GetToken(ByRef srcline As String, _
+    Friend Function GetToken(ByRef srcline As String,
                          ByVal rsNonDelimiters As String) _
                          As String
         '-----
@@ -219,7 +222,7 @@ Module modMain
         Dim FC As String ' first char of string
         Dim lsTemp As String
         Dim lsTemp2 As String
-        Const AN_DIGITS = "abcdefghijklmnopqrstuvwxyz" & _
+        Const AN_DIGITS = "abcdefghijklmnopqrstuvwxyz" &
                           "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
         Try
             n_w = ""
@@ -247,8 +250,8 @@ Module modMain
         End Try
     End Function
 
-    Friend Function GetToken(ByRef srcline As String, _
-                            ByVal rsNonDelimiters As String, _
+    Friend Function GetToken(ByRef srcline As String,
+                            ByVal rsNonDelimiters As String,
                             ByVal rsDel As String) _
                             As String
         '-----
@@ -275,7 +278,7 @@ Module modMain
         Dim FC As String ' first char of string
         Dim lsTemp As String
         Dim lsTemp2 As String
-        Const AN_DIGITS = "abcdefghijklmnopqrstuvwxyz" & _
+        Const AN_DIGITS = "abcdefghijklmnopqrstuvwxyz" &
                           "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
         Try
             n_w = ""
@@ -456,25 +459,39 @@ Module modMain
         Dim Start As Integer
         Dim oCF As New CConfig()
         Dim oFrm As New frmRental()
+        Dim oRES As CTransaction
 
         Try
             If PrevInstance() Then Exit Sub
             UserName = Environ("COMPUTERNAME")
             DatabaseName = GetSetting(RENTALPRO, SETTINGS, "DBNAME", "")
-            If DatabaseName.Length = 0 Then
+            If String.IsNullOrEmpty(DatabaseName) OrElse DatabaseName.Length = 0 Then
                 DatabaseName = SelectDatabase(oFrm.OpenFileDialog1)
                 If DatabaseName.Length = 0 Then
                     Exit Sub
                 End If
             End If
 
+            ' try to connect to database before going through all the exercise of regular
+            ' initialiazation which will not work if we can't connect to db
+            ConnectString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & DatabaseName
+            Dim oDA As CDataAccess = New CDataAccess
+            Dim conn As New OleDbConnection
+            If Not oDA.OpenConnection(ConnectString, conn) Then
+                ' we can't connect to db
+                DatabaseName = SelectDatabase(oFrm.OpenFileDialog1, True)
+                If String.IsNullOrEmpty(DatabaseName) OrElse DatabaseName.Length = 0 Then
+                    MsgBox("Rental can't continue because you did not select a database.", MsgBoxStyle.OkOnly, "No Database")
+                    Exit Sub ' we are outta here
+                End If
+            End If
 
-            Dim oRES As CTransaction
             AppPath = GetAppPath()
             AppPath = AppPath.Substring(0, AppPath.LastIndexOf("\"))
-            ConnectString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" & DatabaseName
 
             Dim oFS As New frmSplash()
+            ' This requires db hit so before this we need to get a conn if possible, if not set a new flag
+            ' that all db initializations can look at to avoid all the err msgs
             oCF.GetConfig()
             oFS.Show()
             Start = VB.Timer()
@@ -507,9 +524,9 @@ Module modMain
 
     Public Sub StructuredErrorHandler(ByVal ex As System.Exception, Optional ByVal ShowMsgBox As Boolean = True)
         Try
-            Dim msg As String = "Error------" & vbCrLf & _
-               ex.Message & vbCrLf & _
-               "Error Type-----" & vbCrLf & ex.GetType().ToString & vbCrLf & _
+            Dim msg As String = "Error------" & vbCrLf &
+               ex.Message & vbCrLf &
+               "Error Type-----" & vbCrLf & ex.GetType().ToString & vbCrLf &
                "Error Details-----" & vbCrLf & ex.ToString
             If ShowMsgBox Then
                 MsgBox(msg, MsgBoxStyle.Exclamation)

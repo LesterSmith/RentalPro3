@@ -62,7 +62,7 @@ Public Class CDataAccess
 
             i += 1
                 If i > 5 Then
-                    MsgBox("Can't open conntection to " & ConnStr & " Err: " & Err.Description, MsgBoxStyle.Critical)
+                    MsgBox("Can't open conntection to " & ConnStr & vbCrLf & " Err: " & Err.Description, MsgBoxStyle.Critical)
                     Return False
                 End If
             Err.Clear()

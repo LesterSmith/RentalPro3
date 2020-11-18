@@ -1,32 +1,32 @@
 Option Strict Off
 Option Explicit On
 Friend Class frmSplash
-	Inherits System.Windows.Forms.Form
+    Inherits System.Windows.Forms.Form
 #Region "Windows Form Designer generated code "
-	Public Sub New()
-		MyBase.New()
-      'This call is required by the Windows Form Designer.
-      InitializeComponent()
-   End Sub
-   'Form overrides dispose to clean up the component list.
-   Protected Overloads Overrides Sub Dispose(ByVal Disposing As Boolean)
-      If Disposing Then
-         If Not components Is Nothing Then
-            components.Dispose()
-         End If
-      End If
-      MyBase.Dispose(Disposing)
-   End Sub
-   'Required by the Windows Form Designer
-   Private components As System.ComponentModel.IContainer
-   Public ToolTip1 As System.Windows.Forms.ToolTip
-   Public WithEvents picLogo As System.Windows.Forms.PictureBox
-   Public WithEvents lblCompanyProduct As System.Windows.Forms.Label
-   Public WithEvents lblWarning As System.Windows.Forms.Label
-   Public WithEvents fraMainFrame As System.Windows.Forms.GroupBox
-   'NOTE: The following procedure is required by the Windows Form Designer
-   'It can be modified using the Windows Form Designer.
-   'Do not modify it using the code editor.
+    Public Sub New()
+        MyBase.New()
+        'This call is required by the Windows Form Designer.
+        InitializeComponent()
+    End Sub
+    'Form overrides dispose to clean up the component list.
+    Protected Overloads Overrides Sub Dispose(ByVal Disposing As Boolean)
+        If Disposing Then
+            If Not components Is Nothing Then
+                components.Dispose()
+            End If
+        End If
+        MyBase.Dispose(Disposing)
+    End Sub
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+    Public ToolTip1 As System.Windows.Forms.ToolTip
+    Public WithEvents picLogo As System.Windows.Forms.PictureBox
+    Public WithEvents lblCompanyProduct As System.Windows.Forms.Label
+    Public WithEvents lblWarning As System.Windows.Forms.Label
+    Public WithEvents fraMainFrame As System.Windows.Forms.GroupBox
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.
+    'Do not modify it using the code editor.
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents lblVersion As System.Windows.Forms.Label
     Friend WithEvents lblDescription As System.Windows.Forms.Label
@@ -168,6 +168,10 @@ Friend Class frmSplash
         '   lblProductName.Caption = App.Title
         Me.lblWarning.Text &= CorporateName
         Me.lblDescription.Text = "Licensed to " & CorporateName
+        Me.lblVersion.Text = "Version: " &
+                    System.Diagnostics.FileVersionInfo.GetVersionInfo(System.Reflection.Assembly.GetExecutingAssembly.Location).FileMajorPart &
+                     "." & System.Diagnostics.FileVersionInfo.GetVersionInfo(System.Reflection.Assembly.GetExecutingAssembly.Location).FileMinorPart
+
     End Sub
 
     Private Sub fraMainFrame_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles fraMainFrame.Enter

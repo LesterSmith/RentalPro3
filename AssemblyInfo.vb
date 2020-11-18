@@ -26,6 +26,6 @@ Imports System.Runtime.InteropServices
 ' TODO: Need a way to return sale items not used (credit Memo) 
 '       when only sale items were on the original invoice
 ' TODO: If adding rerent at checkin, po will not be picked up
-<Assembly: AssemblyVersion("4.6")>
+<Assembly: AssemblyVersion("4.7")>
 
 

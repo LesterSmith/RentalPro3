@@ -118,10 +118,10 @@ Public Class frmAddToList
         Me.chkDeposit.Cursor = System.Windows.Forms.Cursors.Default
         Me.chkDeposit.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.chkDeposit.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.chkDeposit.Location = New System.Drawing.Point(256, 112)
+        Me.chkDeposit.Location = New System.Drawing.Point(410, 174)
         Me.chkDeposit.Name = "chkDeposit"
         Me.chkDeposit.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.chkDeposit.Size = New System.Drawing.Size(62, 17)
+        Me.chkDeposit.Size = New System.Drawing.Size(99, 25)
         Me.chkDeposit.TabIndex = 31
         Me.chkDeposit.Text = "De&posit"
         Me.ToolTip1.SetToolTip(Me.chkDeposit, "Click to remove this deposit")
@@ -134,10 +134,10 @@ Public Class frmAddToList
         Me.cmdReserve.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdReserve.ForeColor = System.Drawing.SystemColors.ControlText
         Me.cmdReserve.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.cmdReserve.Location = New System.Drawing.Point(8, 304)
+        Me.cmdReserve.Location = New System.Drawing.Point(13, 461)
         Me.cmdReserve.Name = "cmdReserve"
         Me.cmdReserve.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmdReserve.Size = New System.Drawing.Size(76, 41)
+        Me.cmdReserve.Size = New System.Drawing.Size(121, 60)
         Me.cmdReserve.TabIndex = 24
         Me.cmdReserve.TabStop = False
         Me.cmdReserve.Text = "&Reserve Equipment"
@@ -152,10 +152,10 @@ Public Class frmAddToList
         Me.btnAddToList.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAddToList.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btnAddToList.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnAddToList.Location = New System.Drawing.Point(262, 304)
+        Me.btnAddToList.Location = New System.Drawing.Point(419, 461)
         Me.btnAddToList.Name = "btnAddToList"
         Me.btnAddToList.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.btnAddToList.Size = New System.Drawing.Size(70, 41)
+        Me.btnAddToList.Size = New System.Drawing.Size(112, 60)
         Me.btnAddToList.TabIndex = 25
         Me.btnAddToList.TabStop = False
         Me.btnAddToList.Text = "&Add to List"
@@ -169,10 +169,10 @@ Public Class frmAddToList
         Me.cmdCancelOrder.Font = New System.Drawing.Font("Arial", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cmdCancelOrder.ForeColor = System.Drawing.SystemColors.ControlText
         Me.cmdCancelOrder.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.cmdCancelOrder.Location = New System.Drawing.Point(341, 304)
+        Me.cmdCancelOrder.Location = New System.Drawing.Point(546, 461)
         Me.cmdCancelOrder.Name = "cmdCancelOrder"
         Me.cmdCancelOrder.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmdCancelOrder.Size = New System.Drawing.Size(70, 41)
+        Me.cmdCancelOrder.Size = New System.Drawing.Size(112, 60)
         Me.cmdCancelOrder.TabIndex = 26
         Me.cmdCancelOrder.TabStop = False
         Me.cmdCancelOrder.Text = "&Cancel"
@@ -186,11 +186,11 @@ Public Class frmAddToList
         Me.txtWeekEnd.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtWeekEnd.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtWeekEnd.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtWeekEnd.Location = New System.Drawing.Point(280, 60)
+        Me.txtWeekEnd.Location = New System.Drawing.Point(448, 98)
         Me.txtWeekEnd.MaxLength = 0
         Me.txtWeekEnd.Name = "txtWeekEnd"
         Me.txtWeekEnd.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtWeekEnd.Size = New System.Drawing.Size(75, 19)
+        Me.txtWeekEnd.Size = New System.Drawing.Size(120, 26)
         Me.txtWeekEnd.TabIndex = 18
         Me.txtWeekEnd.TabStop = False
         Me.txtWeekEnd.Tag = "(No Auto Formatting)"
@@ -204,11 +204,11 @@ Public Class frmAddToList
         Me.txtMonthly.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtMonthly.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtMonthly.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtMonthly.Location = New System.Drawing.Point(280, 38)
+        Me.txtMonthly.Location = New System.Drawing.Point(448, 61)
         Me.txtMonthly.MaxLength = 0
         Me.txtMonthly.Name = "txtMonthly"
         Me.txtMonthly.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtMonthly.Size = New System.Drawing.Size(75, 19)
+        Me.txtMonthly.Size = New System.Drawing.Size(120, 26)
         Me.txtMonthly.TabIndex = 17
         Me.txtMonthly.TabStop = False
         Me.txtMonthly.Tag = "(No Auto Formatting)"
@@ -222,11 +222,11 @@ Public Class frmAddToList
         Me.txtWeekly.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtWeekly.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtWeekly.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtWeekly.Location = New System.Drawing.Point(280, 16)
+        Me.txtWeekly.Location = New System.Drawing.Point(448, 23)
         Me.txtWeekly.MaxLength = 0
         Me.txtWeekly.Name = "txtWeekly"
         Me.txtWeekly.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtWeekly.Size = New System.Drawing.Size(75, 19)
+        Me.txtWeekly.Size = New System.Drawing.Size(120, 26)
         Me.txtWeekly.TabIndex = 16
         Me.txtWeekly.TabStop = False
         Me.txtWeekly.Tag = "(No Auto Formatting)"
@@ -240,11 +240,11 @@ Public Class frmAddToList
         Me.txtDaily.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtDaily.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDaily.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtDaily.Location = New System.Drawing.Point(92, 59)
+        Me.txtDaily.Location = New System.Drawing.Point(147, 96)
         Me.txtDaily.MaxLength = 0
         Me.txtDaily.Name = "txtDaily"
         Me.txtDaily.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtDaily.Size = New System.Drawing.Size(75, 19)
+        Me.txtDaily.Size = New System.Drawing.Size(120, 26)
         Me.txtDaily.TabIndex = 15
         Me.txtDaily.TabStop = False
         Me.txtDaily.Tag = "(No Auto Formatting)"
@@ -258,11 +258,11 @@ Public Class frmAddToList
         Me.txtHalfDay.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtHalfDay.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtHalfDay.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtHalfDay.Location = New System.Drawing.Point(92, 37)
+        Me.txtHalfDay.Location = New System.Drawing.Point(147, 59)
         Me.txtHalfDay.MaxLength = 0
         Me.txtHalfDay.Name = "txtHalfDay"
         Me.txtHalfDay.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtHalfDay.Size = New System.Drawing.Size(75, 19)
+        Me.txtHalfDay.Size = New System.Drawing.Size(120, 26)
         Me.txtHalfDay.TabIndex = 14
         Me.txtHalfDay.TabStop = False
         Me.txtHalfDay.Tag = "(No Auto Formatting)"
@@ -277,12 +277,12 @@ Public Class frmAddToList
         Me.txtHourly.Enabled = False
         Me.txtHourly.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtHourly.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtHourly.Location = New System.Drawing.Point(92, 16)
+        Me.txtHourly.Location = New System.Drawing.Point(147, 23)
         Me.txtHourly.MaxLength = 0
         Me.txtHourly.Name = "txtHourly"
         Me.txtHourly.ReadOnly = True
         Me.txtHourly.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtHourly.Size = New System.Drawing.Size(75, 19)
+        Me.txtHourly.Size = New System.Drawing.Size(120, 26)
         Me.txtHourly.TabIndex = 13
         Me.txtHourly.TabStop = False
         Me.txtHourly.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
@@ -301,10 +301,10 @@ Public Class frmAddToList
         Me.fraItemDesc.Controls.Add(Me._Label1_0)
         Me.fraItemDesc.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fraItemDesc.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.fraItemDesc.Location = New System.Drawing.Point(6, 6)
+        Me.fraItemDesc.Location = New System.Drawing.Point(10, 9)
         Me.fraItemDesc.Name = "fraItemDesc"
         Me.fraItemDesc.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.fraItemDesc.Size = New System.Drawing.Size(417, 101)
+        Me.fraItemDesc.Size = New System.Drawing.Size(667, 147)
         Me.fraItemDesc.TabIndex = 22
         Me.fraItemDesc.TabStop = False
         Me.fraItemDesc.Text = "Rental Item"
@@ -312,20 +312,20 @@ Public Class frmAddToList
         'lblNbrItems
         '
         Me.lblNbrItems.AutoSize = True
-        Me.lblNbrItems.Location = New System.Drawing.Point(240, 16)
+        Me.lblNbrItems.Location = New System.Drawing.Point(384, 23)
         Me.lblNbrItems.Name = "lblNbrItems"
-        Me.lblNbrItems.Size = New System.Drawing.Size(72, 14)
+        Me.lblNbrItems.Size = New System.Drawing.Size(104, 18)
         Me.lblNbrItems.TabIndex = 30
         Me.lblNbrItems.Text = "Number Items"
         Me.lblNbrItems.Visible = False
         '
         'txtMultiCount
         '
-        Me.txtMultiCount.Location = New System.Drawing.Point(314, 14)
+        Me.txtMultiCount.Location = New System.Drawing.Point(502, 20)
         Me.txtMultiCount.MaxLength = 3
         Me.txtMultiCount.Name = "txtMultiCount"
         Me.txtMultiCount.ReadOnly = True
-        Me.txtMultiCount.Size = New System.Drawing.Size(32, 20)
+        Me.txtMultiCount.Size = New System.Drawing.Size(52, 26)
         Me.txtMultiCount.TabIndex = 29
         Me.txtMultiCount.Visible = False
         '
@@ -336,12 +336,12 @@ Public Class frmAddToList
         Me.txtItemDesc.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtItemDesc.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtItemDesc.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtItemDesc.Location = New System.Drawing.Point(48, 66)
+        Me.txtItemDesc.Location = New System.Drawing.Point(77, 106)
         Me.txtItemDesc.MaxLength = 0
         Me.txtItemDesc.Name = "txtItemDesc"
         Me.txtItemDesc.ReadOnly = True
         Me.txtItemDesc.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtItemDesc.Size = New System.Drawing.Size(357, 19)
+        Me.txtItemDesc.Size = New System.Drawing.Size(571, 26)
         Me.txtItemDesc.TabIndex = 28
         Me.txtItemDesc.TabStop = False
         '
@@ -352,12 +352,12 @@ Public Class frmAddToList
         Me.txtItemID.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtItemID.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtItemID.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtItemID.Location = New System.Drawing.Point(48, 16)
+        Me.txtItemID.Location = New System.Drawing.Point(77, 23)
         Me.txtItemID.MaxLength = 0
         Me.txtItemID.Name = "txtItemID"
         Me.txtItemID.ReadOnly = True
         Me.txtItemID.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtItemID.Size = New System.Drawing.Size(75, 19)
+        Me.txtItemID.Size = New System.Drawing.Size(120, 26)
         Me.txtItemID.TabIndex = 26
         Me.txtItemID.TabStop = False
         '
@@ -368,12 +368,12 @@ Public Class frmAddToList
         Me.txtItemName.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtItemName.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtItemName.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtItemName.Location = New System.Drawing.Point(48, 40)
+        Me.txtItemName.Location = New System.Drawing.Point(77, 63)
         Me.txtItemName.MaxLength = 0
         Me.txtItemName.Name = "txtItemName"
         Me.txtItemName.ReadOnly = True
         Me.txtItemName.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtItemName.Size = New System.Drawing.Size(229, 19)
+        Me.txtItemName.Size = New System.Drawing.Size(366, 26)
         Me.txtItemName.TabIndex = 24
         Me.txtItemName.TabStop = False
         '
@@ -384,10 +384,10 @@ Public Class frmAddToList
         Me._Label1_3.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._Label1_3.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.SetIndex(Me._Label1_3, CType(3, Short))
-        Me._Label1_3.Location = New System.Drawing.Point(10, 62)
+        Me._Label1_3.Location = New System.Drawing.Point(16, 101)
         Me._Label1_3.Name = "_Label1_3"
         Me._Label1_3.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me._Label1_3.Size = New System.Drawing.Size(47, 27)
+        Me._Label1_3.Size = New System.Drawing.Size(55, 39)
         Me._Label1_3.TabIndex = 27
         Me._Label1_3.Text = "Item Desc"
         '
@@ -399,10 +399,10 @@ Public Class frmAddToList
         Me._Label1_2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._Label1_2.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.SetIndex(Me._Label1_2, CType(2, Short))
-        Me._Label1_2.Location = New System.Drawing.Point(10, 18)
+        Me._Label1_2.Location = New System.Drawing.Point(16, 26)
         Me._Label1_2.Name = "_Label1_2"
         Me._Label1_2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me._Label1_2.Size = New System.Drawing.Size(38, 14)
+        Me._Label1_2.Size = New System.Drawing.Size(56, 18)
         Me._Label1_2.TabIndex = 25
         Me._Label1_2.Text = "Item ID"
         '
@@ -413,10 +413,10 @@ Public Class frmAddToList
         Me._Label1_0.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._Label1_0.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.SetIndex(Me._Label1_0, CType(0, Short))
-        Me._Label1_0.Location = New System.Drawing.Point(10, 34)
+        Me._Label1_0.Location = New System.Drawing.Point(16, 55)
         Me._Label1_0.Name = "_Label1_0"
         Me._Label1_0.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me._Label1_0.Size = New System.Drawing.Size(47, 27)
+        Me._Label1_0.Size = New System.Drawing.Size(75, 39)
         Me._Label1_0.TabIndex = 23
         Me._Label1_0.Text = "Item Name"
         '
@@ -448,10 +448,10 @@ Public Class frmAddToList
         Me.fraRentalPeriod.Controls.Add(Me._Label1_1)
         Me.fraRentalPeriod.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fraRentalPeriod.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.fraRentalPeriod.Location = New System.Drawing.Point(8, 116)
+        Me.fraRentalPeriod.Location = New System.Drawing.Point(13, 170)
         Me.fraRentalPeriod.Name = "fraRentalPeriod"
         Me.fraRentalPeriod.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.fraRentalPeriod.Size = New System.Drawing.Size(413, 176)
+        Me.fraRentalPeriod.Size = New System.Drawing.Size(661, 270)
         Me.fraRentalPeriod.TabIndex = 20
         Me.fraRentalPeriod.TabStop = False
         Me.fraRentalPeriod.Text = "Rental Period"
@@ -463,10 +463,10 @@ Public Class frmAddToList
         Me.txtPeriods.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPeriods.ForeColor = System.Drawing.SystemColors.WindowText
         Me.txtPeriods.Items.AddRange(New Object() {"1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "45", "60", "90"})
-        Me.txtPeriods.Location = New System.Drawing.Point(12, 118)
+        Me.txtPeriods.Location = New System.Drawing.Point(19, 182)
         Me.txtPeriods.Name = "txtPeriods"
         Me.txtPeriods.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtPeriods.Size = New System.Drawing.Size(55, 22)
+        Me.txtPeriods.Size = New System.Drawing.Size(88, 26)
         Me.txtPeriods.TabIndex = 0
         Me.txtPeriods.Text = "1"
         '
@@ -476,10 +476,10 @@ Public Class frmAddToList
         Me.optWeekEnd.Cursor = System.Windows.Forms.Cursors.Default
         Me.optWeekEnd.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optWeekEnd.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.optWeekEnd.Location = New System.Drawing.Point(186, 61)
+        Me.optWeekEnd.Location = New System.Drawing.Point(298, 99)
         Me.optWeekEnd.Name = "optWeekEnd"
         Me.optWeekEnd.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.optWeekEnd.Size = New System.Drawing.Size(89, 21)
+        Me.optWeekEnd.Size = New System.Drawing.Size(142, 31)
         Me.optWeekEnd.TabIndex = 11
         Me.optWeekEnd.Text = "Week &End"
         Me.optWeekEnd.UseVisualStyleBackColor = False
@@ -491,11 +491,11 @@ Public Class frmAddToList
         Me.txtDeposit.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtDeposit.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtDeposit.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtDeposit.Location = New System.Drawing.Point(322, 112)
+        Me.txtDeposit.Location = New System.Drawing.Point(515, 174)
         Me.txtDeposit.MaxLength = 0
         Me.txtDeposit.Name = "txtDeposit"
         Me.txtDeposit.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtDeposit.Size = New System.Drawing.Size(79, 19)
+        Me.txtDeposit.Size = New System.Drawing.Size(127, 26)
         Me.txtDeposit.TabIndex = 2
         Me.txtDeposit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -506,11 +506,11 @@ Public Class frmAddToList
         Me.txtPrice.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtPrice.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtPrice.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtPrice.Location = New System.Drawing.Point(322, 90)
+        Me.txtPrice.Location = New System.Drawing.Point(515, 142)
         Me.txtPrice.MaxLength = 0
         Me.txtPrice.Name = "txtPrice"
         Me.txtPrice.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtPrice.Size = New System.Drawing.Size(79, 19)
+        Me.txtPrice.Size = New System.Drawing.Size(127, 26)
         Me.txtPrice.TabIndex = 1
         Me.txtPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -521,12 +521,12 @@ Public Class frmAddToList
         Me.txtItemTotal.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtItemTotal.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtItemTotal.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtItemTotal.Location = New System.Drawing.Point(322, 142)
+        Me.txtItemTotal.Location = New System.Drawing.Point(515, 218)
         Me.txtItemTotal.MaxLength = 0
         Me.txtItemTotal.Name = "txtItemTotal"
         Me.txtItemTotal.ReadOnly = True
         Me.txtItemTotal.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtItemTotal.Size = New System.Drawing.Size(79, 19)
+        Me.txtItemTotal.Size = New System.Drawing.Size(127, 26)
         Me.txtItemTotal.TabIndex = 3
         Me.txtItemTotal.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
@@ -537,11 +537,11 @@ Public Class frmAddToList
         Me.txtSaleItem.Cursor = System.Windows.Forms.Cursors.IBeam
         Me.txtSaleItem.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.txtSaleItem.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.txtSaleItem.Location = New System.Drawing.Point(96, 149)
+        Me.txtSaleItem.Location = New System.Drawing.Point(154, 228)
         Me.txtSaleItem.MaxLength = 0
         Me.txtSaleItem.Name = "txtSaleItem"
         Me.txtSaleItem.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.txtSaleItem.Size = New System.Drawing.Size(75, 19)
+        Me.txtSaleItem.Size = New System.Drawing.Size(120, 26)
         Me.txtSaleItem.TabIndex = 19
         Me.txtSaleItem.TabStop = False
         Me.txtSaleItem.Tag = "(No Auto Formatting)"
@@ -553,10 +553,10 @@ Public Class frmAddToList
         Me.optSaleItem.Cursor = System.Windows.Forms.Cursors.Default
         Me.optSaleItem.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optSaleItem.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.optSaleItem.Location = New System.Drawing.Point(8, 149)
+        Me.optSaleItem.Location = New System.Drawing.Point(13, 228)
         Me.optSaleItem.Name = "optSaleItem"
         Me.optSaleItem.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.optSaleItem.Size = New System.Drawing.Size(78, 19)
+        Me.optSaleItem.Size = New System.Drawing.Size(125, 28)
         Me.optSaleItem.TabIndex = 12
         Me.optSaleItem.Text = "&Sell Item"
         Me.optSaleItem.UseVisualStyleBackColor = False
@@ -567,10 +567,10 @@ Public Class frmAddToList
         Me.optMonthly.Cursor = System.Windows.Forms.Cursors.Default
         Me.optMonthly.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optMonthly.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.optMonthly.Location = New System.Drawing.Point(186, 39)
+        Me.optMonthly.Location = New System.Drawing.Point(298, 62)
         Me.optMonthly.Name = "optMonthly"
         Me.optMonthly.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.optMonthly.Size = New System.Drawing.Size(71, 17)
+        Me.optMonthly.Size = New System.Drawing.Size(113, 25)
         Me.optMonthly.TabIndex = 10
         Me.optMonthly.Text = "&Monthly"
         Me.optMonthly.UseVisualStyleBackColor = False
@@ -581,10 +581,10 @@ Public Class frmAddToList
         Me.optWeekly.Cursor = System.Windows.Forms.Cursors.Default
         Me.optWeekly.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optWeekly.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.optWeekly.Location = New System.Drawing.Point(186, 16)
+        Me.optWeekly.Location = New System.Drawing.Point(298, 23)
         Me.optWeekly.Name = "optWeekly"
         Me.optWeekly.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.optWeekly.Size = New System.Drawing.Size(65, 17)
+        Me.optWeekly.Size = New System.Drawing.Size(104, 25)
         Me.optWeekly.TabIndex = 9
         Me.optWeekly.Text = "&Weekly"
         Me.optWeekly.UseVisualStyleBackColor = False
@@ -595,10 +595,10 @@ Public Class frmAddToList
         Me.optDaily.Cursor = System.Windows.Forms.Cursors.Default
         Me.optDaily.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optDaily.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.optDaily.Location = New System.Drawing.Point(10, 59)
+        Me.optDaily.Location = New System.Drawing.Point(16, 96)
         Me.optDaily.Name = "optDaily"
         Me.optDaily.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.optDaily.Size = New System.Drawing.Size(77, 21)
+        Me.optDaily.Size = New System.Drawing.Size(123, 31)
         Me.optDaily.TabIndex = 8
         Me.optDaily.Text = "&Daily"
         Me.optDaily.UseVisualStyleBackColor = False
@@ -609,10 +609,10 @@ Public Class frmAddToList
         Me.optHalfDay.Cursor = System.Windows.Forms.Cursors.Default
         Me.optHalfDay.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optHalfDay.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.optHalfDay.Location = New System.Drawing.Point(10, 34)
+        Me.optHalfDay.Location = New System.Drawing.Point(16, 55)
         Me.optHalfDay.Name = "optHalfDay"
         Me.optHalfDay.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.optHalfDay.Size = New System.Drawing.Size(70, 25)
+        Me.optHalfDay.Size = New System.Drawing.Size(112, 40)
         Me.optHalfDay.TabIndex = 7
         Me.optHalfDay.Text = "&Half Day/ 4 Hrs"
         Me.optHalfDay.UseVisualStyleBackColor = False
@@ -624,10 +624,10 @@ Public Class frmAddToList
         Me.optHour.Enabled = False
         Me.optHour.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optHour.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.optHour.Location = New System.Drawing.Point(12, 16)
+        Me.optHour.Location = New System.Drawing.Point(19, 23)
         Me.optHour.Name = "optHour"
         Me.optHour.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.optHour.Size = New System.Drawing.Size(53, 15)
+        Me.optHour.Size = New System.Drawing.Size(85, 22)
         Me.optHour.TabIndex = 6
         Me.optHour.TabStop = True
         Me.optHour.Text = "Hou&rly"
@@ -636,9 +636,9 @@ Public Class frmAddToList
         'Line1
         '
         Me.Line1.BackColor = System.Drawing.SystemColors.WindowText
-        Me.Line1.Location = New System.Drawing.Point(316, 136)
+        Me.Line1.Location = New System.Drawing.Point(506, 209)
         Me.Line1.Name = "Line1"
-        Me.Line1.Size = New System.Drawing.Size(85, 1)
+        Me.Line1.Size = New System.Drawing.Size(136, 1)
         Me.Line1.TabIndex = 32
         '
         '_Label1_7
@@ -649,10 +649,10 @@ Public Class frmAddToList
         Me._Label1_7.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._Label1_7.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.SetIndex(Me._Label1_7, CType(7, Short))
-        Me._Label1_7.Location = New System.Drawing.Point(264, 144)
+        Me._Label1_7.Location = New System.Drawing.Point(422, 220)
         Me._Label1_7.Name = "_Label1_7"
         Me._Label1_7.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me._Label1_7.Size = New System.Drawing.Size(51, 14)
+        Me._Label1_7.Size = New System.Drawing.Size(73, 18)
         Me._Label1_7.TabIndex = 30
         Me._Label1_7.Text = "Item Total"
         '
@@ -664,10 +664,10 @@ Public Class frmAddToList
         Me._Label1_4.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._Label1_4.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.SetIndex(Me._Label1_4, CType(4, Short))
-        Me._Label1_4.Location = New System.Drawing.Point(242, 92)
+        Me._Label1_4.Location = New System.Drawing.Point(387, 144)
         Me._Label1_4.Name = "_Label1_4"
         Me._Label1_4.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me._Label1_4.Size = New System.Drawing.Size(79, 14)
+        Me._Label1_4.Size = New System.Drawing.Size(115, 18)
         Me._Label1_4.TabIndex = 29
         Me._Label1_4.Text = "Extended Price"
         '
@@ -679,18 +679,18 @@ Public Class frmAddToList
         Me._Label1_1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me._Label1_1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Label1.SetIndex(Me._Label1_1, CType(1, Short))
-        Me._Label1_1.Location = New System.Drawing.Point(10, 99)
+        Me._Label1_1.Location = New System.Drawing.Point(16, 155)
         Me._Label1_1.Name = "_Label1_1"
         Me._Label1_1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me._Label1_1.Size = New System.Drawing.Size(101, 14)
+        Me._Label1_1.Size = New System.Drawing.Size(144, 18)
         Me._Label1_1.TabIndex = 21
         Me._Label1_1.Text = "# Periods / Quantity"
         '
         'LinkLabel1
         '
-        Me.LinkLabel1.Location = New System.Drawing.Point(96, 308)
+        Me.LinkLabel1.Location = New System.Drawing.Point(154, 467)
         Me.LinkLabel1.Name = "LinkLabel1"
-        Me.LinkLabel1.Size = New System.Drawing.Size(88, 32)
+        Me.LinkLabel1.Size = New System.Drawing.Size(140, 47)
         Me.LinkLabel1.TabIndex = 23
         Me.LinkLabel1.TabStop = True
         Me.LinkLabel1.Text = "How Do I rent for a day and a half?"
@@ -698,8 +698,8 @@ Public Class frmAddToList
         '
         'frmAddToList
         '
-        Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
-        Me.ClientSize = New System.Drawing.Size(424, 356)
+        Me.AutoScaleBaseSize = New System.Drawing.Size(8, 19)
+        Me.ClientSize = New System.Drawing.Size(682, 538)
         Me.ControlBox = False
         Me.Controls.Add(Me.cmdCancelOrder)
         Me.Controls.Add(Me.btnAddToList)

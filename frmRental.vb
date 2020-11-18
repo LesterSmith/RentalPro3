@@ -258,10 +258,10 @@ Friend Class frmRental
         Me.Button1.ForeColor = System.Drawing.SystemColors.ControlText
         Me.Button1.Image = CType(resources.GetObject("Button1.Image"), System.Drawing.Image)
         Me.Button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.Button1.Location = New System.Drawing.Point(12, 67)
+        Me.Button1.Location = New System.Drawing.Point(19, 98)
         Me.Button1.Name = "Button1"
         Me.Button1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Button1.Size = New System.Drawing.Size(87, 70)
+        Me.Button1.Size = New System.Drawing.Size(139, 102)
         Me.Button1.TabIndex = 23
         Me.Button1.TabStop = False
         Me.Button1.Text = "&Supplies"
@@ -277,10 +277,10 @@ Friend Class frmRental
         Me.cmdRentThis.ForeColor = System.Drawing.SystemColors.ControlText
         Me.cmdRentThis.Image = CType(resources.GetObject("cmdRentThis.Image"), System.Drawing.Image)
         Me.cmdRentThis.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.cmdRentThis.Location = New System.Drawing.Point(99, 67)
+        Me.cmdRentThis.Location = New System.Drawing.Point(158, 98)
         Me.cmdRentThis.Name = "cmdRentThis"
         Me.cmdRentThis.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmdRentThis.Size = New System.Drawing.Size(87, 70)
+        Me.cmdRentThis.Size = New System.Drawing.Size(140, 102)
         Me.cmdRentThis.TabIndex = 24
         Me.cmdRentThis.TabStop = False
         Me.cmdRentThis.Text = "Check &Out"
@@ -296,10 +296,10 @@ Friend Class frmRental
         Me.cmdCheckIn.ForeColor = System.Drawing.SystemColors.ControlText
         Me.cmdCheckIn.Image = CType(resources.GetObject("cmdCheckIn.Image"), System.Drawing.Image)
         Me.cmdCheckIn.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.cmdCheckIn.Location = New System.Drawing.Point(186, 67)
+        Me.cmdCheckIn.Location = New System.Drawing.Point(298, 98)
         Me.cmdCheckIn.Name = "cmdCheckIn"
         Me.cmdCheckIn.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmdCheckIn.Size = New System.Drawing.Size(87, 70)
+        Me.cmdCheckIn.Size = New System.Drawing.Size(139, 102)
         Me.cmdCheckIn.TabIndex = 25
         Me.cmdCheckIn.TabStop = False
         Me.cmdCheckIn.Text = "Check &In"
@@ -315,10 +315,10 @@ Friend Class frmRental
         Me.cmdCancelOrder.ForeColor = System.Drawing.SystemColors.ControlText
         Me.cmdCancelOrder.Image = CType(resources.GetObject("cmdCancelOrder.Image"), System.Drawing.Image)
         Me.cmdCancelOrder.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.cmdCancelOrder.Location = New System.Drawing.Point(360, 67)
+        Me.cmdCancelOrder.Location = New System.Drawing.Point(576, 98)
         Me.cmdCancelOrder.Name = "cmdCancelOrder"
         Me.cmdCancelOrder.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmdCancelOrder.Size = New System.Drawing.Size(87, 70)
+        Me.cmdCancelOrder.Size = New System.Drawing.Size(139, 102)
         Me.cmdCancelOrder.TabIndex = 26
         Me.cmdCancelOrder.TabStop = False
         Me.cmdCancelOrder.Text = "&Cancel"
@@ -334,10 +334,10 @@ Friend Class frmRental
         Me.cmdWhoHasIt.ForeColor = System.Drawing.SystemColors.ControlText
         Me.cmdWhoHasIt.Image = CType(resources.GetObject("cmdWhoHasIt.Image"), System.Drawing.Image)
         Me.cmdWhoHasIt.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.cmdWhoHasIt.Location = New System.Drawing.Point(273, 67)
+        Me.cmdWhoHasIt.Location = New System.Drawing.Point(437, 98)
         Me.cmdWhoHasIt.Name = "cmdWhoHasIt"
         Me.cmdWhoHasIt.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmdWhoHasIt.Size = New System.Drawing.Size(87, 70)
+        Me.cmdWhoHasIt.Size = New System.Drawing.Size(139, 102)
         Me.cmdWhoHasIt.TabIndex = 27
         Me.cmdWhoHasIt.TabStop = False
         Me.cmdWhoHasIt.Text = "&Who Has It?"
@@ -353,10 +353,10 @@ Friend Class frmRental
         Me.cmdReserve.ForeColor = System.Drawing.SystemColors.ControlText
         Me.cmdReserve.Image = CType(resources.GetObject("cmdReserve.Image"), System.Drawing.Image)
         Me.cmdReserve.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.cmdReserve.Location = New System.Drawing.Point(447, 67)
+        Me.cmdReserve.Location = New System.Drawing.Point(715, 98)
         Me.cmdReserve.Name = "cmdReserve"
         Me.cmdReserve.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cmdReserve.Size = New System.Drawing.Size(87, 70)
+        Me.cmdReserve.Size = New System.Drawing.Size(139, 102)
         Me.cmdReserve.TabIndex = 28
         Me.cmdReserve.TabStop = False
         Me.cmdReserve.Text = "&Reserve"
@@ -372,10 +372,10 @@ Friend Class frmRental
         Me.btnClose.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btnClose.Image = CType(resources.GetObject("btnClose.Image"), System.Drawing.Image)
         Me.btnClose.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnClose.Location = New System.Drawing.Point(621, 67)
+        Me.btnClose.Location = New System.Drawing.Point(994, 98)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.btnClose.Size = New System.Drawing.Size(87, 70)
+        Me.btnClose.Size = New System.Drawing.Size(139, 102)
         Me.btnClose.TabIndex = 29
         Me.btnClose.TabStop = False
         Me.btnClose.Text = "C&lose"
@@ -391,10 +391,10 @@ Friend Class frmRental
         Me.btnReRent.ForeColor = System.Drawing.SystemColors.ControlText
         Me.btnReRent.Image = CType(resources.GetObject("btnReRent.Image"), System.Drawing.Image)
         Me.btnReRent.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.btnReRent.Location = New System.Drawing.Point(534, 67)
+        Me.btnReRent.Location = New System.Drawing.Point(854, 98)
         Me.btnReRent.Name = "btnReRent"
         Me.btnReRent.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.btnReRent.Size = New System.Drawing.Size(87, 70)
+        Me.btnReRent.Size = New System.Drawing.Size(140, 102)
         Me.btnReRent.TabIndex = 30
         Me.btnReRent.TabStop = False
         Me.btnReRent.Text = "&ReRent"
@@ -409,10 +409,10 @@ Friend Class frmRental
         Me.Frame2.Controls.Add(Me.optShowAll)
         Me.Frame2.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Frame2.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Frame2.Location = New System.Drawing.Point(207, 4)
+        Me.Frame2.Location = New System.Drawing.Point(331, 6)
         Me.Frame2.Name = "Frame2"
         Me.Frame2.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Frame2.Size = New System.Drawing.Size(185, 54)
+        Me.Frame2.Size = New System.Drawing.Size(296, 79)
         Me.Frame2.TabIndex = 10
         Me.Frame2.TabStop = False
         Me.Frame2.Text = "Availability"
@@ -424,10 +424,10 @@ Friend Class frmRental
         Me.optShowAvailable.Cursor = System.Windows.Forms.Cursors.Default
         Me.optShowAvailable.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optShowAvailable.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.optShowAvailable.Location = New System.Drawing.Point(12, 16)
+        Me.optShowAvailable.Location = New System.Drawing.Point(19, 23)
         Me.optShowAvailable.Name = "optShowAvailable"
         Me.optShowAvailable.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.optShowAvailable.Size = New System.Drawing.Size(71, 25)
+        Me.optShowAvailable.Size = New System.Drawing.Size(114, 37)
         Me.optShowAvailable.TabIndex = 0
         Me.optShowAvailable.TabStop = True
         Me.optShowAvailable.Text = "Show A&vailable"
@@ -439,10 +439,10 @@ Friend Class frmRental
         Me.optShowAll.Cursor = System.Windows.Forms.Cursors.Default
         Me.optShowAll.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.optShowAll.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.optShowAll.Location = New System.Drawing.Point(96, 16)
+        Me.optShowAll.Location = New System.Drawing.Point(154, 23)
         Me.optShowAll.Name = "optShowAll"
         Me.optShowAll.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.optShowAll.Size = New System.Drawing.Size(80, 19)
+        Me.optShowAll.Size = New System.Drawing.Size(128, 28)
         Me.optShowAll.TabIndex = 1
         Me.optShowAll.Text = "Show &All"
         Me.optShowAll.UseVisualStyleBackColor = False
@@ -454,10 +454,10 @@ Friend Class frmRental
         Me.fraSearchCriteria.Controls.Add(Me.Label1)
         Me.fraSearchCriteria.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.fraSearchCriteria.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.fraSearchCriteria.Location = New System.Drawing.Point(7, 4)
+        Me.fraSearchCriteria.Location = New System.Drawing.Point(11, 6)
         Me.fraSearchCriteria.Name = "fraSearchCriteria"
         Me.fraSearchCriteria.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.fraSearchCriteria.Size = New System.Drawing.Size(193, 55)
+        Me.fraSearchCriteria.Size = New System.Drawing.Size(309, 80)
         Me.fraSearchCriteria.TabIndex = 3
         Me.fraSearchCriteria.TabStop = False
         Me.fraSearchCriteria.Text = "Category Search"
@@ -468,10 +468,10 @@ Friend Class frmRental
         Me.cboEquipType.Cursor = System.Windows.Forms.Cursors.Default
         Me.cboEquipType.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cboEquipType.ForeColor = System.Drawing.SystemColors.WindowText
-        Me.cboEquipType.Location = New System.Drawing.Point(38, 18)
+        Me.cboEquipType.Location = New System.Drawing.Point(61, 26)
         Me.cboEquipType.Name = "cboEquipType"
         Me.cboEquipType.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.cboEquipType.Size = New System.Drawing.Size(147, 22)
+        Me.cboEquipType.Size = New System.Drawing.Size(235, 26)
         Me.cboEquipType.TabIndex = 0
         Me.cboEquipType.TabStop = False
         '
@@ -481,10 +481,10 @@ Friend Class frmRental
         Me.Label1.Cursor = System.Windows.Forms.Cursors.Default
         Me.Label1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.SystemColors.ControlText
-        Me.Label1.Location = New System.Drawing.Point(6, 14)
+        Me.Label1.Location = New System.Drawing.Point(10, 20)
         Me.Label1.Name = "Label1"
         Me.Label1.RightToLeft = System.Windows.Forms.RightToLeft.No
-        Me.Label1.Size = New System.Drawing.Size(50, 29)
+        Me.Label1.Size = New System.Drawing.Size(80, 43)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Equip &Type"
         '
@@ -939,15 +939,15 @@ Friend Class frmRental
         '
         Me.dbgEquipment.AllowSorting = False
         Me.dbgEquipment.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.dbgEquipment.CaptionText = "Select Items to Rent"
         Me.dbgEquipment.DataMember = ""
         Me.dbgEquipment.HeaderForeColor = System.Drawing.SystemColors.ControlText
-        Me.dbgEquipment.Location = New System.Drawing.Point(2, 141)
+        Me.dbgEquipment.Location = New System.Drawing.Point(3, 206)
         Me.dbgEquipment.Name = "dbgEquipment"
         Me.dbgEquipment.RowHeadersVisible = False
-        Me.dbgEquipment.Size = New System.Drawing.Size(730, 325)
+        Me.dbgEquipment.Size = New System.Drawing.Size(722, 217)
         Me.dbgEquipment.TabIndex = 0
         '
         'OpenFileDialog1
@@ -957,9 +957,9 @@ Friend Class frmRental
         'StatusBar1
         '
         Me.StatusBar1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.StatusBar1.Location = New System.Drawing.Point(0, 472)
+        Me.StatusBar1.Location = New System.Drawing.Point(0, 432)
         Me.StatusBar1.Name = "StatusBar1"
-        Me.StatusBar1.Size = New System.Drawing.Size(744, 22)
+        Me.StatusBar1.Size = New System.Drawing.Size(744, 32)
         Me.StatusBar1.TabIndex = 22
         Me.StatusBar1.Text = "StatusBar1"
         '
@@ -969,8 +969,8 @@ Friend Class frmRental
         '
         'frmRental
         '
-        Me.AutoScaleBaseSize = New System.Drawing.Size(5, 13)
-        Me.ClientSize = New System.Drawing.Size(744, 494)
+        Me.AutoScaleBaseSize = New System.Drawing.Size(8, 19)
+        Me.ClientSize = New System.Drawing.Size(744, 464)
         Me.Controls.Add(Me.btnReRent)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.cmdReserve)
@@ -1041,7 +1041,7 @@ Friend Class frmRental
 
             ' load the equipment type combo
             SQL = "select * from equipment_type order by equip_type_id"
-            oDA.SendQuery(SQL, loRS, modMain.ConnectString)
+            oDA.SendQuery(SQL, loRS, modMain.ConnectString) ' return value ignored here
             oRES = New CTransaction()
             Call oRES.RemoveTempReservation("")
 
