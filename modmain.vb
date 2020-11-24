@@ -486,6 +486,13 @@ Module modMain
                 End If
             End If
 
+            ' save database selected to registry
+            SaveSetting(RENTALPRO, SETTINGS, "DBNAME", DatabaseName)
+            If conn.State = ConnectionState.Open Then
+                conn.Close()
+            End If
+            oDA.Dispose()
+
             AppPath = GetAppPath()
             AppPath = AppPath.Substring(0, AppPath.LastIndexOf("\"))
 
@@ -502,10 +509,9 @@ Module modMain
                 System.Windows.Forms.Application.DoEvents()
             Loop
             oFS.Close()
-            System.Windows.Forms.Application.DoEvents()
+            Application.DoEvents()
 
             fMainForm = oFrm ' so frmCustomers can cause frmRental grid to refresh
-            'oFrm.ShowDialog()
             Application.Run(oFrm)
         Catch ex As System.Exception
             StructuredErrorHandler(ex)

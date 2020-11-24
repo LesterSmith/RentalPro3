@@ -134,6 +134,7 @@ Friend Class frmRental
     Friend WithEvents mnuPrinters As System.Windows.Forms.MenuItem
     Friend WithEvents mnuSendEmail As System.Windows.Forms.MenuItem
     Friend WithEvents mnuShowRentedAndDue As System.Windows.Forms.MenuItem
+    Friend WithEvents mnuShowDBLocation As MenuItem
     Friend WithEvents StatusBar1 As System.Windows.Forms.StatusBar
     <System.Diagnostics.DebuggerStepThrough()> Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
@@ -166,6 +167,7 @@ Friend Class frmRental
         Me.mnuExportEquipList = New System.Windows.Forms.MenuItem()
         Me.mnuFileSep1 = New System.Windows.Forms.MenuItem()
         Me.mnuSelectDatabase = New System.Windows.Forms.MenuItem()
+        Me.mnuShowDBLocation = New System.Windows.Forms.MenuItem()
         Me.MenuItem13 = New System.Windows.Forms.MenuItem()
         Me.mnuPrinters = New System.Windows.Forms.MenuItem()
         Me.mnuShowPrinters = New System.Windows.Forms.MenuItem()
@@ -495,7 +497,7 @@ Friend Class frmRental
         'mnuFile
         '
         Me.mnuFile.Index = 0
-        Me.mnuFile.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuRefreshGrid, Me.mnuCheckDueItems, Me.mnuSendEmail, Me.mnuExport, Me.mnuFileSep1, Me.mnuSelectDatabase, Me.MenuItem13, Me.mnuPrinters, Me.mnuShowPrinters, Me.mnuFileExit})
+        Me.mnuFile.MenuItems.AddRange(New System.Windows.Forms.MenuItem() {Me.mnuRefreshGrid, Me.mnuCheckDueItems, Me.mnuSendEmail, Me.mnuExport, Me.mnuFileSep1, Me.mnuSelectDatabase, Me.mnuShowDBLocation, Me.MenuItem13, Me.mnuPrinters, Me.mnuShowPrinters, Me.mnuFileExit})
         Me.mnuFile.Text = "&File"
         '
         'mnuRefreshGrid
@@ -552,25 +554,30 @@ Friend Class frmRental
         Me.mnuSelectDatabase.Index = 5
         Me.mnuSelectDatabase.Text = "Select &Database"
         '
+        'mnuShowDBLocation
+        '
+        Me.mnuShowDBLocation.Index = 6
+        Me.mnuShowDBLocation.Text = "Show Database Location"
+        '
         'MenuItem13
         '
-        Me.MenuItem13.Index = 6
+        Me.MenuItem13.Index = 7
         Me.MenuItem13.Text = "-"
         '
         'mnuPrinters
         '
         Me.mnuPrinters.Enabled = False
-        Me.mnuPrinters.Index = 7
+        Me.mnuPrinters.Index = 8
         Me.mnuPrinters.Text = "Set Default Printer"
         '
         'mnuShowPrinters
         '
-        Me.mnuShowPrinters.Index = 8
+        Me.mnuShowPrinters.Index = 9
         Me.mnuShowPrinters.Text = "Page Setup"
         '
         'mnuFileExit
         '
-        Me.mnuFileExit.Index = 9
+        Me.mnuFileExit.Index = 10
         Me.mnuFileExit.Shortcut = System.Windows.Forms.Shortcut.CtrlE
         Me.mnuFileExit.Text = "E&xit"
         '
@@ -947,7 +954,7 @@ Friend Class frmRental
         Me.dbgEquipment.Location = New System.Drawing.Point(3, 206)
         Me.dbgEquipment.Name = "dbgEquipment"
         Me.dbgEquipment.RowHeadersVisible = False
-        Me.dbgEquipment.Size = New System.Drawing.Size(722, 217)
+        Me.dbgEquipment.Size = New System.Drawing.Size(722, 157)
         Me.dbgEquipment.TabIndex = 0
         '
         'OpenFileDialog1
@@ -957,7 +964,7 @@ Friend Class frmRental
         'StatusBar1
         '
         Me.StatusBar1.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.StatusBar1.Location = New System.Drawing.Point(0, 432)
+        Me.StatusBar1.Location = New System.Drawing.Point(0, 372)
         Me.StatusBar1.Name = "StatusBar1"
         Me.StatusBar1.Size = New System.Drawing.Size(744, 32)
         Me.StatusBar1.TabIndex = 22
@@ -970,7 +977,7 @@ Friend Class frmRental
         'frmRental
         '
         Me.AutoScaleBaseSize = New System.Drawing.Size(8, 19)
-        Me.ClientSize = New System.Drawing.Size(744, 464)
+        Me.ClientSize = New System.Drawing.Size(744, 404)
         Me.Controls.Add(Me.btnReRent)
         Me.Controls.Add(Me.btnClose)
         Me.Controls.Add(Me.cmdReserve)
@@ -1035,7 +1042,7 @@ Friend Class frmRental
             Me.Top = VB6.TwipsToPixelsY(CSng(GetSetting(System.Reflection.Assembly.GetExecutingAssembly.GetName.Name, "Settings", "MainTop", CStr(1000))))
             Me.Width = VB6.TwipsToPixelsX(CSng(GetSetting(System.Reflection.Assembly.GetExecutingAssembly.GetName.Name, "Settings", "MainWidth", CStr(6500))))
             Me.Height = VB6.TwipsToPixelsY(CSng(GetSetting(System.Reflection.Assembly.GetExecutingAssembly.GetName.Name, "Settings", "MainHeight", CStr(6500))))
-            Me.mnuPreviewBeforePrint.Checked = _
+            Me.mnuPreviewBeforePrint.Checked =
                GetSetting(System.Reflection.Assembly.GetExecutingAssembly.GetName.Name, SETTINGS, "Preview", True)
             Me.mnuAutoRunReminder.Checked = GetSetting(RENTALPRO, SETTINGS, "AUTOREMIND", True)
 
@@ -1049,7 +1056,7 @@ Friend Class frmRental
             Me.cboEquipType.Items.Add(("All Equipment"))
             For i = 0 To loRS.Rows.Count - 1
                 With loRS.Rows(i)
-                    Me.cboEquipType.Items.Add(CType(.Item("equip_type_id"), String).PadLeft(2) & _
+                    Me.cboEquipType.Items.Add(CType(.Item("equip_type_id"), String).PadLeft(2) &
                        " - " & .Item("equip_type"))
                 End With
             Next i
@@ -2235,7 +2242,7 @@ Friend Class frmRental
                             If lastName.Length = 0 Then
                                 lastName = Me.dtEquip.Rows(i).Item("equip_name")
                             Else
-                                If lastName <> Me.dtEquip.Rows(i).Item("equip_name") Or _
+                                If lastName <> Me.dtEquip.Rows(i).Item("equip_name") Or
                                    Me.dtEquip.Rows(i).Item("meter_required") Then
                                     MsgBox("If you select multiple items, they must all be the same equipment name, and they can't have meters.", MsgBoxStyle.Exclamation)
                                     Noise = False
@@ -2480,5 +2487,14 @@ Friend Class frmRental
     Private Sub mnuShowRentedAndDue_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles mnuShowRentedAndDue.Click
         Dim frm As New frmReminder
         frm.Show()
+    End Sub
+
+    Private Sub mnuShowDBLocation_Click(sender As Object, e As EventArgs) Handles mnuShowDBLocation.Click
+        Dim dbLoc As String = GetSetting(RENTALPRO, SETTINGS, "DBNAME", "")
+        If Not String.IsNullOrEmpty(dbLoc) Then
+            MsgBox("RentalPro is expecting to use or using the database located at" + vbCrLf + dbLoc + ".", MsgBoxStyle.OkOnly, "Database Location")
+        Else
+            MsgBox("RentalPro does not know where the database should be located.  Please use the Select Database Menu Option to select a database.", MsgBoxStyle.OkOnly, "DB Location Unknown")
+        End If
     End Sub
 End Class
